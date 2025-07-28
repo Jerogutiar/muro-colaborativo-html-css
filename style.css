@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle,#00f,#0ff);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor .estilos{
+    font-family:fantasy;
+    width: 300px;
+    color: aquamarine;
+    transition: .3s;
+}
+.contenedor .estilos:hover{
+    color: black;
+}
+
+ /* start coder 6 */
+footer{
+    background-color: #181e4b;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+footer a{
+    color: #ecf0f6;
+    text-decoration: none;
+    margin: 10px;
+}
+
+#copyright{
+    color: #838383;
+    margin-top: 20px;
+}
+ /* end coder 6 */
+
+ 
+ /* start coder 25*/
+ #riwi_logo{
+    border-radius: 50%;
+ }
+/* end coder 25 */
+
+
+.output-- {
+    width: 15%;
+    padding: 1rem;
+    color: cyan;
+    gap: 1rem;
+    background-color: rgb(34, 33, 33);
+    border-radius: 1.25rem;
+    border: 2px solid cyan;
+    box-shadow: 0px 0px 15px cyan
+    0px 0px 15px cyan inset;
+}
+
+/*Header - Coder 1*/
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffff;
+    box-shadow: 0px 2px 5px #000000;
+    margin: 15px;
+    padding: 10px;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 15px;
+}
+.qoute_container{
+    
+}
+.blockquote{
+    border-left: 2px solid black;
+    background-color: #eeeeee;
+    padding-left: 2rem;
+}
+/* Start - Coder 7: Aside */
+.sidebar{
+    display: flex;
+    flex-flow: column;
+    color: black;
+    flex: 0.325;
+    margin-left: 80%;
+    margin-right: 1em;
+    width: auto;
+}
+
+.cards > * {
+    background: cyan;
+}
+
+.sidebar > section{
+    display: flex;
+    flex-flow: column;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.sidebar section h3{
+    font-weight: 500;
+    font-size: 1.6625rem;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar section .card{
+    border-bottom: 2px solid blue;
+    padding: 1.5rem;
+    display: flex;
+    flex-flow: column;
+    gap: 1.5rem;
+}
+
+/* Finish - Coder 7: Aside */
+.virtualClock{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    min-width: 1vh;
+    max-width: 50em;
+    max-height: 50em;
+    justify-self: flex-end;
+    text-align: right;
+    border-radius: 20px;
+    background-color: rgb(58, 68, 53);
+    border: 2px solid whitesmoke;
+    box-shadow: 4px 4px 3px gray;
+
+    color: yellowgreen;
+    
+    
+    h2{
+        border-bottom: 1px solid ;
+        margin: 10%;
+        margin-right: 5%;
+
+        @media (max-width: 570px) {
+            font-size: 2em;
+        }
+
+        @media (max-width: 350px) {
+            font-size: 1em;
+        }
+    }
+
+    .time{
+        margin: 0;
+        padding: 0;
+        letter-spacing: 0.05em;
+        font-size: 4em;
+        padding: 5px 5px;
+
+        
+        @media (max-width: 570px) {
+            font-size: 2em;
+        }
+    }
+
+    .date{
+        margin: 0;
+        padding: 0;
+        letter-spacing: 0.1em;
+        font-size: 2em;
+
+        @media (max-width: 570px) {
+            font-size: 1em;
+        }
+    }
+}
+
+.services{
+    padding: 40px;
+    background-color: rebeccapurple;
+    text-align: center;
+}
+
+.services-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.service{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+@media (max-width: 480px) {
+    .sidebar{
+        display: none;
+    }
+}
